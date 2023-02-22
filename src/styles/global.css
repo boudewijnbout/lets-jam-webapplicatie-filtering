@@ -1,0 +1,17 @@
+body {
+    background-color: #F3F2EE;
+    padding: 0 10rem;
+    font-family: "Inter", sans-serif;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1.75fr 1fr;
+	grid-gap: 3rem;
+}
+
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: #111;
+    }
+}

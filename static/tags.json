@@ -1,0 +1,46 @@
+ {
+ "available_tags": [
+    {
+      "id": "1027276443346022501",
+      "name": "html",
+      "emoji_id": null,
+      "emoji_name": "💻",
+      "moderated": false
+    },
+    {
+      "id": "1027276486249549945",
+      "name": "css",
+      "emoji_id": null,
+      "emoji_name": "💅",
+      "moderated": false
+    },
+    {
+      "id": "1027276638142083092",
+      "name": "javascript",
+      "emoji_id": null,
+      "emoji_name": "😎",
+      "moderated": false
+    },
+    {
+      "id": "1027277075788349521",
+      "name": "git",
+      "emoji_id": null,
+      "emoji_name": "🏡",
+      "moderated": false
+    },
+    {
+      "id": "1027525656499724308",
+      "name": "feedback",
+      "emoji_id": null,
+      "emoji_name": "🙎",
+      "moderated": false
+    },
+    {
+      "id": "1072961726913450186",
+      "name": "nodeJS",
+      "emoji_id": null,
+      "emoji_name": "🔥",
+      "moderated": false
+    }
+  ]
+}
