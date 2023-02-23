@@ -1,6 +1,5 @@
 <script>
 	import { filters } from "$lib/stores/filters";
-	import { get } from "svelte/store";
 
 	export let name;
 	export let value;

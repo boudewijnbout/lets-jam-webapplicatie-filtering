@@ -56,18 +56,17 @@ export const load = async ({ fetch }) => {
 	const tags = await tagsReq.json();
 
 	// Get values from filter options
-	const filterValues = get(filters);
+	let filterValues = get(filters);
 
 	// Get threads that match filter options
 	if (filteredThreads) {
 		const filteredItems = threads.threads.filter((thread) => {
-			if (Object.values(thread.applied_tags).includes("1027276443346022501")) {
-				return thread;
-			}
-		});
+			return filterValues.checkboxes.some(element => thread.applied_tags.includes(element));
+		});	
 
 		// Set filtered threads store
 		filteredThreads.set(filteredItems);
+		console.log(get(filteredThreads));
 	}
 
 	// Return JSON
