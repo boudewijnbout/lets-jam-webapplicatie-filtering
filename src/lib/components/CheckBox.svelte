@@ -1,5 +1,8 @@
 <script>
 	import { filters } from "$lib/stores/filters";
+	import { get } from "svelte/store";
+
+	let newCheckboxes;
 
 	export let name;
 	export let value;
@@ -12,8 +15,6 @@
 
 		// Update value of filter store
 		filters.update((state) => {
-			let newCheckboxes;
-
 			// Check if a checkbox is selected
 			if (e.target.checked) {
 				const checkedCheckboxes = state.checkboxes.filter(
@@ -35,6 +36,8 @@
 				checkboxes: newCheckboxes,
 			};
 		});
+
+		console.log(get(filters).checkboxes);
 	}
 </script>
 
