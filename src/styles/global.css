@@ -1,17 +1,39 @@
+/*--------------------------------------------------------------
+# Globals
+--------------------------------------------------------------*/
 body {
-    background-color: #F3F2EE;
-    padding: 0 10rem;
+    background-color: var(--bg-grey);
+    padding: 0 0.5rem;
     font-family: "Inter", sans-serif;
 }
 
 main {
     display: grid;
-    grid-template-columns: 1.75fr 1fr;
-	grid-gap: 3rem;
 }
 
-@media (prefers-color-scheme: dark) {
+button {
+    outline: none;
+    border: none;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+/*--------------------------------------------------------------
+# Media querys
+--------------------------------------------------------------*/
+@media (min-width: 48rem) {
+    main {
+        grid-template-columns: 1.75fr 1fr;
+        grid-gap: 3rem;
+    }
+}
+
+@media (min-width: 75rem) {
     body {
-        background-color: #111;
+        padding: 0 10rem;
     }
 }

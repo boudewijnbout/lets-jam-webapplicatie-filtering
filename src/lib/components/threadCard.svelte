@@ -26,19 +26,24 @@
 	h2 {
 		font-size: 1.35rem;
 		color: #222;
+		font-family: "Montserrat", sans-serif;
 	}
 
 	ul {
 		display: flex;
-		margin: 0;
-		padding: 0;
-		list-style: none;
 		flex-wrap: wrap;
 	}
 
 	li {
-		font-size: 0.9rem;
-		color: #222;
+		font-size: 0.75rem;
+		color: var(--text-secondary);
+		text-transform: uppercase;
+		font-family: "Rubik", sans-serif;
+		font-weight: 600;
+		border: 1px solid var(--element-border);
+		padding: 0.3rem 0.9rem;
+		border-radius: 3rem;
+		margin-right: 0.3rem;
 	}
 
 	@media (prefers-color-scheme: dark) {
