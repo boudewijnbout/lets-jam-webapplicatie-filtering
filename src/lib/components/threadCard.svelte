@@ -45,19 +45,4 @@
 		border-radius: 3rem;
 		margin-right: 0.3rem;
 	}
-
-	@media (prefers-color-scheme: dark) {
-		div {
-			background-color: #000000;
-			border: 1px solid #333;
-		}
-
-		h2 {
-			color: #fff;
-		}
-
-		li {
-			color: #fff;
-		}
-	}
 </style>
