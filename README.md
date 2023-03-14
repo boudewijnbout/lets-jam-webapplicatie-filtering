@@ -1,38 +1,54 @@
-# create-svelte
+# FDND Stack | Filtering
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
+<img width="800" alt="Scherm­afbeelding 2023-03-14 om 14 12 10" src="https://user-images.githubusercontent.com/45170095/225012189-5bbedd1d-dd21-485a-9c7c-631f8ec458b1.png">
 
-## Creating a project
+Dit project omvat de filter opties van het `FDND Stack` project. De code en logica voor het filteren van de threads is herschreven, zodat deze beter te begrijpen is. Zo staat nu alle filter logica in één store i.p.v drie verschillende stores. Dit project heeft overeenkomende stijling met het `FDND-Stack` project. Dit is omdat deze twee projecten bij elkaar horen. 
 
-If you're seeing this, you've probably already done this step. Congrats!
+## 📚 Inhoudsopgave
+ * [Beschrijving](#beschrijving)
+ * [Kenmerken](#kenmerken)
+ * [Installatie](#installatie)
+ * [Gebruik](#gebruik)
+ * [Bronnen](#bronnen)
+ * [Licentie](#licentie)
 
-```bash
-# create a new project in the current directory
-npm create svelte@latest
+## ⚡ Kenmerken
 
-# create a new project in my-app
-npm create svelte@latest my-app
-```
+Dit project is gemaakt met SvelteKit en vanilla JavaScript. Verder staat hieronder nog een korte lijst met gebruikte tools en middelen.
 
-## Developing
+**Tools**
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+- 🖥️ VSCode
 
-```bash
-npm run dev
+**Gebruikte technieken**
 
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
+- 🚀 SvelteKit
+- 💅🏼 CSS
+- 💯 JavaScript
 
-## Building
+## 📥 Installatie
 
-To create a production version of your app:
+1. Clone of download deze repository
+2. Ga naar de root directory van het project.
+3. Gebruik `npm install` om de gebruikte dev dependencies en packages te installeren.
+4. Gebruik `npm run dev` om de web-server te starten. Deze is standaard bereikbar op poort `5173`.
 
-```bash
-npm run build
-```
+## 🔨 Gebruik
 
-You can preview the production build with `npm run preview`.
+De applicatie is op twee manieren te gebruiken: lokaal en op het web. Lokaal is bedoeld voor het testen, experimenten en eventueel verbeteren van de applicatie in een ontwikkel omgeving. Het is ook mogelijk om de applicatie online te bezoeken en te gebruiken, dit kan op onderstaande link:
 
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+[Webversie](https://lets-jam-webapplicatie-filtering.vercel.app/)
+
+## 📖 Bronnen
+
+[SvelteKit](https://kit.svelte.dev/)
+<br>
+[Discord API](https://discord.com/developers/docs/intro)
+<br>
+[CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
+
+## 🔓 Licentie
+
+![GNU GPL V3](https://www.gnu.org/graphics/gplv3-127x51.png)
+
+This work is licensed under [GNU GPLv3](./LICENSE)
